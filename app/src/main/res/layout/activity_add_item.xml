@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buysell">
+
+            <EditText
+                android:id="@+id/item_tags_add"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/transparent_blue"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:ems="10"
+                android:hint="eg: #forkids, #gadgets"
+                android:inputType="textPersonName"
+                android:maxLength="100"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tags:"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/item_tags_add"
+                app:layout_constraintTop_toBottomOf="@+id/select_image_upload2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Preview:"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/select_image_upload"
+                app:layout_constraintTop_toBottomOf="@+id/item_desc_add" />
+
+            <EditText
+                android:id="@+id/item_desc_add"
+                android:layout_width="0dp"
+                android:layout_height="146dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/transparent_blue"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:ems="10"
+                android:hint="Item Description"
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Item Name:"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/item_name_add"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/select_image_upload"
+                android:layout_width="131dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/transparent_blue"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <EditText
+                android:id="@+id/item_name_add"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/transparent_blue"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:ems="10"
+                android:hint="Item Name"
+                android:inputType="textPersonName"
+                android:maxLength="50"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <EditText
+                android:id="@+id/item_price_add"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/transparent_blue"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:ems="10"
+                android:hint="Price"
+                android:inputType="number"
+                android:maxLength="15"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="5dp"
+                android:text="Please review everything before you proceed."
+                android:textColor="@color/fui_bgPhone"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/item_sell_btn"
+                app:layout_constraintTop_toBottomOf="@+id/item_tags_add" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:text="Description:"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_price_add" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Price:"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/item_price_add"
+                app:layout_constraintTop_toBottomOf="@+id/item_name_add" />
+
+            <Button
+                android:id="@+id/goBack_add"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@color/colorBackground"
+                android:text="Go Back    "
+                android:textAlignment="viewEnd"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_sell_btn" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0dp"
+                android:layout_height="39dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@color/colorBackground" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="SELL / POST ITEM"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+                app:layout_constraintStart_toStartOf="@+id/imageView6"
+                app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+            <Button
+                android:id="@+id/item_sell_btn"
+                android:layout_width="166dp"
+                android:layout_height="43dp"
+                android:background="@color/fui_bgAnonymous"
+                android:text="Sell Item"
+                android:textColor="@color/browser_actions_text_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/select_image_upload"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/select_image_upload"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ImageView
+                android:id="@+id/select_image_upload2"
+                android:layout_width="131dp"
+                android:layout_height="128dp"
+                android:background="@drawable/frame"
+                android:backgroundTint="@color/colorBackground"
+                app:layout_constraintBottom_toBottomOf="@+id/select_image_upload"
+                app:layout_constraintEnd_toEndOf="@+id/select_image_upload"
+                app:layout_constraintStart_toStartOf="@+id/select_image_upload"
+                app:layout_constraintTop_toTopOf="@+id/select_image_upload" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

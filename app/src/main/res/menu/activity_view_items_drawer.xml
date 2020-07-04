@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allItems"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Browse Items" />
+        <item
+            android:id="@+id/nav_myItems"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="My Items" />
+
+    </group>
+
+    <item android:title="User Account">
+        <menu>
+            <item
+                android:id="@+id/nav_viewProfile"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="View My Profile" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

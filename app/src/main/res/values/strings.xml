@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">
+        PalitTayo
+    </string>
+    <string name="facebook_application_id" translatable="false">
+        598942030515907
+    </string>
+    <string name="facebook_login_protocol_scheme" translatable="false">
+        fb598942030515907
+    </string>
+    <string name="chat_firebase_appId" translatable="false">
+        1:752676895314:android:53c0898fc2415883
+    </string>
+    <string name="chat_firebase_storage_bucket" translatable="false">
+        palittayo-3da4a.appspot.com
+    </string>
+    <string name="chat_firebase_url" translatable="false">
+        https://palittayo-3da4a.firebaseio.com
+    </string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="itemStatus">
+        <item>Available</item>
+        <item>Sold</item>
+    </string-array>
+    <string name="title_activity_view_items">ViewItemsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/name_asc"
+        android:orderInCategory="100"
+        android:title="Sort By Name (ASC)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/name_desc"
+        android:orderInCategory="101"
+        android:title="Sort By Name (DESC)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/price_asc"
+        android:orderInCategory="102"
+        android:title="Lowest to Highest"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/price_desc"
+        android:orderInCategory="103"
+        android:title="Highest to Lowest"
+        app:showAsAction="never" />
+</menu>

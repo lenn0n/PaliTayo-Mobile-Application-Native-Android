@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752676895314",
+    "firebase_url": "https://palittayo-3da4a.firebaseio.com",
+    "project_id": "palittayo-3da4a",
+    "storage_bucket": "palittayo-3da4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752676895314:android:53c0898fc2415883",
+        "android_client_info": {
+          "package_name": "com.mis.palittayo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752676895314-tdiuv70dig7akb9a88g04p842nlls2i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-cJEzYY2Y45tEmI1llm4QoOHuebcqSb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752676895314-tdiuv70dig7akb9a88g04p842nlls2i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
